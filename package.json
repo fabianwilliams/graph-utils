@@ -1,5 +1,5 @@
 {
-  "name": "graph-utils",
+  "name": "@fabianwilliams/graph-utils",
   "version": "1.0.1",
   "description": "Utilities for working with graphs in TypeScript for use with MCP",
   "keywords": [
