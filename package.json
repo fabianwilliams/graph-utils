@@ -20,7 +20,8 @@
     "url": "git+https://github.com/fabianwilliams/graph-utils.git"
   },
   "files": [
-    "dist"
+    "dist",
+    "build"
   ],
   "main": "dist/index.js",
   "exports": {
