@@ -37,6 +37,9 @@
     "typescript": "^5.8.2",
     "vitest": "^3.0.9"
   },
+  "bin": {
+    "graph-utils": "build/main.js"
+  },
   "scripts": {
     "build": "tsc",
     "format": "prettier --write .",
@@ -46,5 +49,8 @@
     "dev": "vitest",
     "local-release": "changeset version && changeset publish",
     "prepublishOnly": "npm run ci"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.7.0"
   }
 }
