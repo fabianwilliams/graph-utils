@@ -1,5 +1,11 @@
 # graph-utils
 
+## 1.1.2
+
+### Patch Changes
+
+- eb1d520: Making fixing permissions on main js
+
 ## 1.1.1
 
 ### Patch Changes
