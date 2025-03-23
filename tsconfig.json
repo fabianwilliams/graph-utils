@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    /* Base settings */
     "target": "ES2022",
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
@@ -12,18 +11,13 @@
     "allowJs": true,
     "resolveJsonModule": true,
 
-    /* ESM-friendly behavior */
-    "allowImportingTsExtensions": true,
-
-    /* Emit declarations */
     "declaration": true,
     "declarationMap": true,
     "emitDeclarationOnly": false,
     "sourceMap": true,
     "composite": true,
-    "noEmit": true,
+    "noEmit": false,
 
-    /* Strictness and safety */
     "strict": true,
     "noUncheckedIndexedAccess": true,
     "noImplicitOverride": true,
@@ -36,10 +30,9 @@
     "noPropertyAccessFromIndexSignature": true,
     "forceConsistentCasingInFileNames": true,
 
-    /* Skip default types you don’t need */
     "skipLibCheck": true,
     "skipDefaultLibCheck": true
   },
   "include": ["src/**/*", "test.ts"],
-  "exclude": ["node_modules", "build"]
+  "exclude": ["node_modules"]
 }

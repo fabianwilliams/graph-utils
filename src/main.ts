@@ -2,7 +2,7 @@
 import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js';
 import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js';
 import { z } from 'zod';
-import { buildGraphUrl, fromGraphTime, toGraphTime } from './index.ts';
+import { buildGraphUrl, fromGraphTime, toGraphTime } from './index';
 
 // Create and configure the MCP server
 const server = new McpServer({
