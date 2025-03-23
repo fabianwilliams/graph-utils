@@ -1,5 +1,11 @@
 # graph-utils
 
+## 1.1.4
+
+### Patch Changes
+
+- 7bce6af: nomenclature fix
+
 ## 1.1.3
 
 ### Patch Changes
