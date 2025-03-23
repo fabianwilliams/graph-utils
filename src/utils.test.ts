@@ -1,4 +1,4 @@
-import { toGraphTime, fromGraphTime, buildGraphUrl } from './index.mts';
+import { toGraphTime, fromGraphTime, buildGraphUrl } from './index.js';
 import { test, expect } from 'vitest';
 
 test('converts to ISO string', () => {

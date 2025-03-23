@@ -48,7 +48,8 @@
     "test": "vitest run",
     "dev": "vitest",
     "local-release": "changeset version && changeset publish",
-    "prepublishOnly": "npm run ci"
+    "prepublishOnly": "npm run ci",
+    "clean": "rm -rf build dist *.tsbuildinfo"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.7.0"
