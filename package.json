@@ -1,6 +1,6 @@
 {
   "name": "@fabianwilliams/graph-utils",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Utilities for working with graphs in TypeScript for use with MCP",
   "keywords": [
     "msgraph",
