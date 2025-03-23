@@ -17,14 +17,14 @@ export const fromGraphTime = (isoString) => new Date(isoString);
  * @returns Full Graph API URL as string
  */
 export const buildGraphUrl = (path, queryParams) => {
-    const baseUrl = 'https://graph.microsoft.com/v1.0';
-    const cleanPath = path.startsWith('/') ? path : `/${path}`;
-    const url = new URL(`${baseUrl}${cleanPath}`);
-    if (queryParams) {
-        Object.entries(queryParams).forEach(([key, value]) => {
-            url.searchParams.append(key, value);
-        });
-    }
-    return url.toString();
+  const baseUrl = 'https://graph.microsoft.com/v1.0';
+  const cleanPath = path.startsWith('/') ? path : `/${path}`;
+  const url = new URL(`${baseUrl}${cleanPath}`);
+  if (queryParams) {
+    Object.entries(queryParams).forEach(([key, value]) => {
+      url.searchParams.append(key, value);
+    });
+  }
+  return url.toString();
 };
 //# sourceMappingURL=index.mjs.map

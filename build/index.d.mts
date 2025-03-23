@@ -16,5 +16,8 @@ export declare const fromGraphTime: (isoString: string) => Date;
  * @param queryParams Key-value object of query parameters (e.g. { $filter: "...", $select: "..." })
  * @returns Full Graph API URL as string
  */
-export declare const buildGraphUrl: (path: string, queryParams?: Record<string, string>) => string;
+export declare const buildGraphUrl: (
+  path: string,
+  queryParams?: Record<string, string>,
+) => string;
 //# sourceMappingURL=index.d.mts.map
