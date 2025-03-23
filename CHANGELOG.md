@@ -1,5 +1,11 @@
 # graph-utils
 
+## 1.1.3
+
+### Patch Changes
+
+- cee4baf: readying build for CLI
+
 ## 1.1.2
 
 ### Patch Changes
