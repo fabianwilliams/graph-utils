@@ -3,30 +3,36 @@
     /* Base Options: */
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "lib": ["es2022", "dom"],
     "target": "es2022",
     "allowJs": true,
     "resolveJsonModule": true,
     "moduleDetection": "force",
     "isolatedModules": true,
-    "verbatimModuleSyntax": true,
-
     /* Strictness */
     "strict": true,
     "noUncheckedIndexedAccess": true,
     "noImplicitOverride": true,
-
     /* If transpiling with TypeScript: */
     "module": "NodeNext",
-    "rootDir": ".",
-    "outDir": "dist",
-    "sourceMap": true,
-
-    /* AND if you're building for a library: */
+    "lib": ["es2022", "DOM"],
     "declaration": true,
-
-    /* AND if you're building for a library in a monorepo: */
-    "declarationMap": true
+    "declarationMap": true,
+    "outDir": "dist",
+    "rootDir": ".",
+    "sourceMap": true,
+    "composite": true,
+    "emitDeclarationOnly": true,
+    "noEmit": false,
+    "skipDefaultLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "allowImportingTsExtensions": true,
   },
-  "include": ["src/**/*", "test.ts"]
+  "include": ["src/**/*", "test.ts"],
 }
