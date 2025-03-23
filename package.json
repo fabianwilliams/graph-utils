@@ -43,6 +43,7 @@
   },
   "scripts": {
     "build": "tsc",
+    "postbuild": "chmod +x build/main.js",
     "format": "prettier --write .",
     "check-format": "prettier --check .",
     "ci": "npm run build && npm run check-format && npm run test",

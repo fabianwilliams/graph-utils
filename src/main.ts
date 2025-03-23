@@ -4,6 +4,8 @@ import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js'
 import { z } from 'zod';
 import { buildGraphUrl, fromGraphTime, toGraphTime } from './index';
 
+console.log('graph-utils CLI starting...');
+
 // Create and configure the MCP server
 const server = new McpServer({
   name: 'Fabs-Graph-Utils',
