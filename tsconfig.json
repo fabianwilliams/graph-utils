@@ -32,7 +32,7 @@
     "noUnusedParameters": true,
     "noImplicitReturns": true,
     "noPropertyAccessFromIndexSignature": true,
-    "allowImportingTsExtensions": true,
+    "allowImportingTsExtensions": true
   },
-  "include": ["src/**/*", "test.ts"],
+  "include": ["src/**/*", "test.ts"]
 }
