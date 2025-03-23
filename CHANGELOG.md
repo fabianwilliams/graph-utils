@@ -1,5 +1,11 @@
 # graph-utils
 
+## 1.1.1
+
+### Patch Changes
+
+- 98fbc35: fix: remove .ts extension in imports for NodeNext compatibility
+
 ## 1.1.0
 
 ### Minor Changes
