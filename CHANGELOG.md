@@ -1,5 +1,15 @@
 # graph-utils
 
+## 1.1.0
+
+### Minor Changes
+
+- 56c134a: Upgraded to MCP compliant build
+
+### Patch Changes
+
+- 85460f2: refactor for build directory
+
 ## 1.0.2
 
 ### Patch Changes
