@@ -1,5 +1,11 @@
 # graph-utils
 
+## 1.1.5
+
+### Patch Changes
+
+- a22bfac: removing console log from main js
+
 ## 1.1.4
 
 ### Patch Changes
