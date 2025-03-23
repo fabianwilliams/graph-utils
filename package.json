@@ -1,0 +1,36 @@
+{
+  "name": "graph-utils",
+  "version": "1.0.0",
+  "description": "Utilities for working with graphs in TypeScript for use with MCP",
+  "keywords": [
+    "msgraph",
+    "microsoft",
+    "graph",
+    "microsoft-graph",
+    "microsoft-graph-sdk",
+    "typescript"
+  ],
+  "homepage": "https://github.com/fabianwilliams/graph-utils",
+  "bugs": {
+    "url": "https://github.com/fabianwilliams/graph-utils/issues"
+  },
+  "author": "Fabian G Williams <fabian@adotob.com> (https://go.fabswill.com)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabianwilliams/graph-utils.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.2"
+  },
+  "scripts": {
+    "build": "tsc",
+    "ci": "npm run build",
+    "format": "prettier --write ."
+  }
+}
